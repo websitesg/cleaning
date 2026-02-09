@@ -74,7 +74,7 @@ const Hero: React.FC<HeroProps> = ({ onOrderClick }) => {
           <div className="lg:w-2/5 relative">
             <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-3xl border-8 border-white group">
               <img
-                src="https://static.tildacdn.com/tild3836-6636-4434-a464-303632353264/_.jpg"
+                src="https://images.unsplash.com/photo-1527515545081-5db817172677?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                 className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
                 alt="Профессиональная уборка гостиной в Екатеринбурге"
               />

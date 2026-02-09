@@ -24,10 +24,10 @@ const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
         <div className="flex items-center gap-4">
           <a href="#" className="flex items-center gap-2">
             <div className="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-xl">L</span>
+              <span className="text-white font-bold text-xl">K</span>
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg leading-tight tracking-tight">УБОРКА КВАРТИР</div>
+              <div className="font-bold text-lg leading-tight tracking-tight">КЛИНИНГ</div>
               <div className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">Екатеринбург</div>
             </div>
           </a>

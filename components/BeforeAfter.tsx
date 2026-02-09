@@ -5,20 +5,20 @@ import { Sparkles } from 'lucide-react';
 const BeforeAfter = () => {
     const examples = [
         {
-            before: 'images/before-after/living_room_dirty.png',
-            after: 'images/before-after/living_room_clean.png',
+            before: 'https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=800&auto=format&fit=crop&grayscale', // Grayscale to simulate dirty/dull
+            after: 'https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=800&auto=format&fit=crop',
             alt: 'Гостиная',
             title: 'Генеральная уборка гостиной'
         },
         {
-            before: 'images/before-after/window_dirty.png',
-            after: 'images/before-after/window_clean.png',
+            before: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop',
+            after: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=800&auto=format&fit=crop',
             alt: 'Окно',
             title: 'Мойка окон'
         },
         {
-            before: 'images/before-after/kitchen_dirty.png',
-            after: 'images/before-after/kitchen_clean.png',
+            before: 'https://images.unsplash.com/photo-1556910103-1c02745a30bf?q=80&w=800&auto=format&fit=crop',
+            after: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=800&auto=format&fit=crop',
             alt: 'Кухня',
             title: 'Уборка кухни'
         }

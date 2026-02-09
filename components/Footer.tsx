@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
           <div className="col-span-1 lg:col-span-1">
             <a href="#" className="flex items-center gap-2 mb-6">
               <div className="w-10 h-10 blue-gradient rounded-xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xl">L</span>
+                <span className="text-white font-bold text-xl">K</span>
               </div>
-              <div className="font-bold text-lg leading-tight tracking-tight uppercase">УБОРКА КВАРТИР</div>
+              <div className="font-bold text-lg leading-tight tracking-tight uppercase">КЛИНИНГ</div>
             </a>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
               Профессиональный клининг для тех, кто ценит свое время и комфорт. Работаем в Екатеринбурге и области с 2018 года.
@@ -64,14 +64,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-4 text-slate-600">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0" />
-                <div className="text-sm font-medium">info@lightcleaning.ru</div>
+                <div className="text-sm font-medium">info@cleaning.ru</div>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs font-medium">
-          <div>2025 © ООО «ЛАЙТ КЛИНИНГ» — Все права защищены</div>
+          <div>2025 © ООО «КЛИНИНГ» — Все права защищены</div>
           <div className="flex gap-6">
             <span>ИНН 7453000000</span>
             <span>ОГРН 1257400000000</span>

@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             </div>
             <div className="hidden sm:block">
               <div className="font-bold text-lg leading-tight tracking-tight">ЛАЙТ КЛИНИНГ</div>
-              <div className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">Челябинск</div>
+              <div className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">Екатеринбург</div>
             </div>
           </a>
         </div>
@@ -52,14 +52,14 @@ const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
             </span>
           </div>
 
-          <button 
+          <button
             onClick={onOrderClick}
             className="hidden sm:block px-6 py-2.5 blue-gradient text-white rounded-full font-semibold shadow-lg shadow-blue-500/30 hover:scale-105 active:scale-95 transition-all text-sm"
           >
             Заказать уборку
           </button>
 
-          <button 
+          <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="lg:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-lg"
           >
@@ -81,7 +81,7 @@ const Header: React.FC<HeaderProps> = ({ onOrderClick }) => {
                 <Phone className="w-5 h-5" />
                 +7 (351) 000-00-00
               </a>
-              <button 
+              <button
                 onClick={() => { setIsMenuOpen(false); onOrderClick(); }}
                 className="w-full py-4 blue-gradient text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20"
               >

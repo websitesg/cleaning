@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               <div className="font-bold text-lg leading-tight tracking-tight uppercase">ЛАЙТ КЛИНИНГ</div>
             </a>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
-              Профессиональный клининг для тех, кто ценит свое время и комфорт. Работаем в Челябинске и области с 2018 года.
+              Профессиональный клининг для тех, кто ценит свое время и комфорт. Работаем в Екатеринбурге и области с 2018 года.
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all">
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-4 text-slate-600">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
-                <div className="text-sm font-medium">г. Челябинск, ул. Ленина, д. 100, офис 205</div>
+                <div className="text-sm font-medium">г. Екатеринбург, ул. Ленина, д. 100, офис 205</div>
               </li>
               <li className="flex items-start gap-4 text-slate-600">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0" />
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs font-medium">
           <div>2025 © ООО «ЛАЙТ КЛИНИНГ» — Все права защищены</div>
           <div className="flex gap-6">

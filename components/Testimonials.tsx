@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Нам доверяют</h2>
-          <p className="text-slate-500">Уже более 1000 жителей Челябинска стали нашими постоянными клиентами</p>
+          <p className="text-slate-500">Уже более 1000 жителей Екатеринбурга стали нашими постоянными клиентами</p>
         </div>
 
         <div className="relative max-w-4xl mx-auto">
@@ -46,7 +46,7 @@ const Testimonials: React.FC = () => {
               <div key={idx} className="w-full shrink-0 px-4">
                 <div className="bg-slate-50 rounded-[3rem] p-8 md:p-16 relative">
                   <Quote className="absolute top-8 right-8 w-24 h-24 text-blue-500/10 pointer-events-none" />
-                  
+
                   <div className="flex items-center gap-2 mb-8">
                     {[...Array(review.rating)].map((_, i) => (
                       <Star key={i} className="w-5 h-5 text-orange-400 fill-current" />
@@ -70,24 +70,24 @@ const Testimonials: React.FC = () => {
           </div>
 
           <div className="flex justify-center md:justify-between items-center mt-12 px-4 gap-4">
-             <div className="flex gap-2">
+            <div className="flex gap-2">
               {reviews.map((_, i) => (
-                <button 
-                  key={i} 
+                <button
+                  key={i}
                   onClick={() => setCurrent(i)}
                   className={`h-2 rounded-full transition-all duration-300 ${i === current ? 'w-8 bg-blue-600' : 'w-2 bg-slate-300'}`}
                 />
               ))}
             </div>
-            
+
             <div className="flex gap-3">
-              <button 
+              <button
                 onClick={prev}
                 className="p-4 rounded-full border border-slate-200 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all shadow-sm"
               >
                 <ChevronLeft className="w-6 h-6" />
               </button>
-              <button 
+              <button
                 onClick={next}
                 className="p-4 rounded-full border border-slate-200 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all shadow-sm"
               >

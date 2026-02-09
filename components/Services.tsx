@@ -6,20 +6,20 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Поддерживающая",
-      price: "от 220 ₽/м²",
+      price: "от 220\u00A0₽/м²",
       image: "https://static.tildacdn.com/tild3165-6333-4166-b130-656365633064/___4.jpg",
       benefits: ["Влажная уборка полов", "Удаление пыли с мебели", "Очистка зеркал", "Уборка санузла"]
     },
     {
       title: "Генеральная",
-      price: "от 360 ₽/м²",
+      price: "от 360\u00A0₽/м²",
       image: "https://static.tildacdn.com/tild3630-6465-4565-a534-356331323162/noroot.png",
       popular: true,
       benefits: ["Обезжиривание кухни", "Глубокая чистка с/у", "Мойка внутри шкафов", "Очистка стен и дверей"]
     },
     {
       title: "После ремонта",
-      price: "от 360 ₽/м²",
+      price: "от 360\u00A0₽/м²",
       image: "https://static.tildacdn.com/tild3264-3836-4536-b133-303066656261/___1.jpg",
       benefits: ["Сбор строймусора", "Обеспыливание всех ниш", "Мойка окон от цемента", "Удаление затирки"]
     }
@@ -42,8 +42,8 @@ const Services: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, idx) => (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className={`relative bg-white rounded-[2.5rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 flex flex-col ${service.popular ? 'ring-4 ring-blue-600 ring-offset-4 scale-105 z-10' : ''}`}
             >
               {service.popular && (
@@ -51,15 +51,15 @@ const Services: React.FC = () => {
                   Хит продаж
                 </div>
               )}
-              
+
               <div className="h-64 overflow-hidden">
                 <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
               </div>
-              
+
               <div className="p-8 flex-grow">
                 <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
                 <div className="text-blue-600 font-extrabold text-xl mb-6">{service.price}</div>
-                
+
                 <ul className="space-y-3 mb-8">
                   {service.benefits.map((b, i) => (
                     <li key={i} className="flex items-center gap-3 text-slate-600 text-sm">

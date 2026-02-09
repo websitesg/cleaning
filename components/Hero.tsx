@@ -17,12 +17,12 @@ const Hero: React.FC<HeroProps> = ({ onOrderClick }) => {
           <div className="lg:w-3/5 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-semibold mb-6 animate-pulse">
               <Star className="w-4 h-4 fill-current" />
-              Клининг №1 в Челябинске
+              Клининг №1 в Екатеринбурге
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-8">
               Уборка квартир <br className="hidden md:block" />
-              <span className="text-blue-600">и домов</span> от 110 ₽/м²
+              <span className="text-blue-600">и домов</span> от <span className="whitespace-nowrap">110 ₽/м²</span>
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
@@ -76,7 +76,7 @@ const Hero: React.FC<HeroProps> = ({ onOrderClick }) => {
               <img
                 src="https://static.tildacdn.com/tild3836-6636-4434-a464-303632353264/_.jpg"
                 className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
-                alt="Профессиональная уборка гостиной в Челябинске"
+                alt="Профессиональная уборка гостиной в Екатеринбурге"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6 p-4 bg-white/90 backdrop-blur rounded-2xl shadow-xl">

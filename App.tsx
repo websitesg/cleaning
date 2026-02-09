@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import BeforeAfter from './components/BeforeAfter';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
@@ -15,10 +16,11 @@ const App: React.FC = () => {
   return (
     <div className="relative">
       <Header onOrderClick={() => setShowModal(true)} />
-      
+
       <main>
         <Hero onOrderClick={() => setShowModal(true)} />
         <Features />
+        <BeforeAfter />
         <Services />
         <Testimonials />
         <div id="order-form">
@@ -33,7 +35,7 @@ const App: React.FC = () => {
       {showModal && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
           <div className="relative w-full max-w-lg bg-white rounded-3xl p-8 shadow-2xl overflow-y-auto max-h-[90vh]">
-            <button 
+            <button
               onClick={() => setShowModal(false)}
               className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-2"
             >

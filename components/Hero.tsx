@@ -21,8 +21,8 @@ const Hero: React.FC<HeroProps> = ({ onOrderClick }) => {
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-8">
-              Уборка квартир и домов <br />
-              <span className="text-blue-600">от 110 ₽/м²</span>
+              Уборка квартир и <br />
+              домов от <span className="text-blue-600">110 ₽/м²</span>
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">

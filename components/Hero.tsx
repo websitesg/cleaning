@@ -39,7 +39,7 @@ const Hero: React.FC<HeroProps> = ({ onOrderClick }) => {
               <div className="flex items-center gap-4 px-6">
                 <div className="flex -space-x-3">
                   {[1, 2, 3, 4].map(i => (
-                    <img key={i} src={`https://picsum.photos/seed/${i + 20}/48/48`} className="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt={`Клиент ${i}`} />
+                    <img key={i} src={`https://randomuser.me/api/portraits/women/${i + 10}.jpg`} className="w-10 h-10 rounded-full border-2 border-white shadow-sm" alt={`Клиент ${i}`} />
                   ))}
                 </div>
                 <div className="text-left">
